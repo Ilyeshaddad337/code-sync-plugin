@@ -21,7 +21,7 @@
  * Author URI:        https://ilyeshaddad.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       code-sync
+ * Text Domain:       code-sync-plugin
  * Domain Path:       /languages
  */
 
@@ -82,13 +82,13 @@ run_code_sync();
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/user-name/repo-name/',
+	'https://github.com/Ilyeshaddad337/code-sync-plugin',
 	__FILE__,
-	'unique-plugin-or-theme-slug'
+	'code-sync'
 );
 
 //Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('stable-branch-name');
+$myUpdateChecker->setBranch('main');
 
 //Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('your-token-here');
+//$myUpdateChecker->setAuthentication('your-token-here');
