@@ -84,7 +84,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/Ilyeshaddad337/code-sync-plugin',
 	__FILE__,
-	'code-sync'
+	'code-sync-plugin'
 );
 
 //Set the branch that contains the stable release.
