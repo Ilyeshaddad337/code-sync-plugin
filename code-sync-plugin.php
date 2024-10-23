@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://ilyeshaddad.com
- * @since             1.0.0
+ * @since             0.0.0
  * @package           Code_Sync
  *
  * @wordpress-plugin
  * Plugin Name:       Code Sync
  * Plugin URI:        https://ilyeshaddad.com
  * Description:       to sync all code snippets across clients
- * Version:           1.0.1
+ * Version:           0.0.0
  * Author:            Ilyes
  * Author URI:        https://ilyeshaddad.com/
  * License:           GPL-2.0+
