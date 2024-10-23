@@ -16,7 +16,7 @@
  * Plugin Name:       Code Sync
  * Plugin URI:        https://ilyeshaddad.com
  * Description:       to sync all code snippets across clients
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Ilyes
  * Author URI:        https://ilyeshaddad.com/
  * License:           GPL-2.0+
