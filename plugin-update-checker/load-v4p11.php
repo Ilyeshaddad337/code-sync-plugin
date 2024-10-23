@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 require dirname(__FILE__) . '/Puc/v4p11/Autoloader.php';
 new Puc_v4p11_Autoloader();
 

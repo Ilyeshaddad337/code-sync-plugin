@@ -1,5 +1,7 @@
 <?php
-
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !class_exists('Puc_v4p11_UpdateChecker', false) ):
 
 	abstract class Puc_v4p11_UpdateChecker {

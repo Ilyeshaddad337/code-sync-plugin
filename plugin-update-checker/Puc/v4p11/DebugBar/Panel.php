@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 
 if ( !class_exists('Puc_v4p11_DebugBar_Panel', false) && class_exists('Debug_Bar_Panel', false) ):
 

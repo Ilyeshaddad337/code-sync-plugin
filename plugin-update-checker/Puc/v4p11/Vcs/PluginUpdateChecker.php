@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !class_exists('Puc_v4p11_Vcs_PluginUpdateChecker') ):
 
 	class Puc_v4p11_Vcs_PluginUpdateChecker extends Puc_v4p11_Plugin_UpdateChecker implements Puc_v4p11_Vcs_BaseChecker {

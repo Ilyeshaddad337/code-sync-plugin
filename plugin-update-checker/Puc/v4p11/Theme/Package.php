@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !class_exists('Puc_v4p11_Theme_Package', false) ):
 
 	class Puc_v4p11_Theme_Package extends Puc_v4p11_InstalledPackage {

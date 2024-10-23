@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
 if ( !class_exists('Puc_v4p11_DebugBar_PluginExtension', false) ):
 
 	class Puc_v4p11_DebugBar_PluginExtension extends Puc_v4p11_DebugBar_Extension {

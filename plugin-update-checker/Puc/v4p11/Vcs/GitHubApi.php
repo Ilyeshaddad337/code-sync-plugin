@@ -1,5 +1,7 @@
 <?php
-
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !class_exists('Puc_v4p11_Vcs_GitHubApi', false) ):
 
 	class Puc_v4p11_Vcs_GitHubApi extends Puc_v4p11_Vcs_Api {

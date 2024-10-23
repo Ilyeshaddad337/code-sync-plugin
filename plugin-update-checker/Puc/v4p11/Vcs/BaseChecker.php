@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !interface_exists('Puc_v4p11_Vcs_BaseChecker', false) ):
 
 	interface Puc_v4p11_Vcs_BaseChecker {

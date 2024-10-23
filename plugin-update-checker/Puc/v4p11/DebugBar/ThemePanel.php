@@ -1,5 +1,7 @@
 <?php
-
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !class_exists('Puc_v4p11_DebugBar_ThemePanel', false) ):
 
 	class Puc_v4p11_DebugBar_ThemePanel extends Puc_v4p11_DebugBar_Panel {

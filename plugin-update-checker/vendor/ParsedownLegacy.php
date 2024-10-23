@@ -12,7 +12,9 @@
 # with this source code.
 #
 #
-
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 class Parsedown
 {
     # ~

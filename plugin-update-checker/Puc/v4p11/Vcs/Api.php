@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 if ( !class_exists('Puc_v4p11_Vcs_Api') ):
 
 	abstract class Puc_v4p11_Vcs_Api {

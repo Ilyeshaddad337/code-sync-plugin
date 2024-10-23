@@ -6,5 +6,7 @@
  * Copyright 2021 Janis Elsts
  * Released under the MIT license. See license.txt for details.
  */
-
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 require dirname(__FILE__) . '/load-v4p11.php';
